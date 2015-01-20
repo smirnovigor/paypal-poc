@@ -28,7 +28,7 @@ exports.create = function (req, res) {
     if (method === 'paypal') {
         payment.payer.payment_method = 'paypal';
         payment.redirect_urls = {
-            "return_url": "http://lit-dawngir-2715.herokuapp.com/execute",
+            "return_url": "http://lit-dawn-2715.herokuapp.com/execute",
             "cancel_url": "http://lit-dawn-2715.herokuapp.com/cancel"
         };
     } else if (method === 'credit_card') {
