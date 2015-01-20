@@ -1,0 +1,14 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+HELP
+node_modules/
+public/lib
+app/tests/coverage/
+.bower-*/
+.idea/
+/public/modules/recipes/directives/recipe/*.css
+*.css
+/uploads/
+/tmp/
